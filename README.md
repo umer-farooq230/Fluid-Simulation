@@ -2,11 +2,7 @@
 
 A real-time 2D fluid you can grab, lift, and splash with your mouse. About 9,000 particles, smooth on a laptop, with a side menu that changes the fluid while it runs.
 
-<p align="center">
-  <img src="Fluid.gif" alt="Grabbing the fluid, lifting it, and letting it splash" width="800">
-</p>
-
-<p align="center"><a href="demo.mp4">Watch the full-quality video</a></p>
+https://github.com/umer-farooq230/Fluid-Simulation/blob/main/PBF%20Fluid%202026-10-18%2002-07-04.mp4
 
 > It started at **~10 FPS**. Making it fast taught me more about optimization than any course did. I wrote about it here: **[I Understood Optimization Through Fluid Simulation](YOUR-MEDIUM-LINK)**
 
