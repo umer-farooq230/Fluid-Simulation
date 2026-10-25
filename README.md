@@ -4,7 +4,7 @@ A real-time 2D fluid you can grab, lift, and splash with your mouse. About 9,000
 
 https://github.com/umer-farooq230/Fluid-Simulation/blob/main/PBF%20Fluid%202026-10-18%2002-07-04.mp4
 
-> It started at **~10 FPS**. Making it fast taught me more about optimization than any course did. I wrote about it here: **[I Understood Optimization Through Fluid Simulation](YOUR-MEDIUM-LINK)**
+> It started at **~10 FPS**. Making it fast taught me more about optimization than any course did. I wrote about it here: **[Understanding the Math Behind Fluid Simulations by Coding in Python](https://medium.com/towardsdev/understanding-the-math-behind-fluid-simulation-by-coding-in-python-a21c530dfcf0)**
 
 ---
 
@@ -41,8 +41,6 @@ Every particle asks one question each step: **"am I more crowded than I should b
 3. **Push apart** the ones that are too crowded, a little, over a few passes. This is the same loop as gradient descent: measure the error, step downhill, repeat.
 4. **Velocity = how far it actually moved.** That's what makes the fluid flow and splash.
 
-This is *Position Based Fluids* ([Macklin & Müller, 2013](https://mmacklin.com/pbf_sig_preview.pdf)), built on SPH (Smoothed Particle Hydrodynamics).
-
 ## Why it's fast
 
 | Problem | Fix |
@@ -69,4 +67,4 @@ The backend has no UI code, so you can import `FluidSimulation` and use it in yo
 
 ## Credits
 
-Method: Macklin & Müller, *Position Based Fluids* (SIGGRAPH 2013). Kernels: Müller et al., *Particle-Based Fluid Simulation for Interactive Applications* (2003).
+This project was inspired by [Sebastian Lague: Coding Adventures: Simulating Fluids](https://www.youtube.com/watch?v=rSKMYc1CQHE)
